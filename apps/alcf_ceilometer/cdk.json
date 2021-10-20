@@ -1,0 +1,15 @@
+{
+    "app": "python app.py",
+    "toolkitStackName": "CICD-CDK-Bootstrap",
+    "plugin": [
+        "cdk-assume-role-credential-plugin"
+    ],
+    "context": {
+        "@aws-cdk/core:newStyleStackSynthesis": "true",
+        "aws-cdk:enableDiffNoFail": "true",
+        "account_id": "557762406065",
+        "environment": "Dev",
+        "region": "us-west-2",
+        "suffix": ""
+    }
+}

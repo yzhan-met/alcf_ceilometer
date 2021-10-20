@@ -1,0 +1,10 @@
+---
+Common:
+  app_name: alcf_ceilometer
+  allow_multiple: false
+Dev:
+  stack_name: Dev-Alcf_ceilometer
+PreProd:
+  stack_name: PreProd-Alcf_ceilometer
+Prod:
+  stack_name: Prod-Alcf_ceilometer

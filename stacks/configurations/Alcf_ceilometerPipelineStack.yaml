@@ -1,0 +1,20 @@
+---
+Common:
+  codestar_connection_parameter: "/cicd/codestar/connection/metservicedev/github/arn"
+  approvers_emails:
+    - Yizhe.Zhan@metservice.com
+  exec_buckets:
+    us-west-2: metservice-research-us-west-2-cicd-pipelines
+  target_regions: # each region must have an exec_bucket
+    - us-west-2
+
+Dev:
+  stack_name: Dev-Alcf_ceilometer-Pipeline
+  target_stack_info:
+    stack_name: Dev-Alcf_ceilometer
+
+Prod:
+  stack_name: Prod-Alcf_ceilometer-Pipeline
+  target_stack_info:
+    stack_name: PreProd-Alcf_ceilometer
+    stack_name_prod: Prod-Alcf_ceilometer

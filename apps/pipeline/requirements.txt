@@ -1,0 +1,14 @@
+#CDK
+## Required by alcf_ceilometer stack
+aws-cdk.core
+
+## Required by pipeline stack
+aws_cdk.aws_codebuild
+aws_cdk.aws_codepipeline
+aws_cdk.pipelines
+aws-cdk.aws_s3
+aws-cdk.aws_ssm
+
+# Extra
+fr-helpers
+ruamel.yaml
